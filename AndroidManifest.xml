@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="io.github.lukeeey.xblui"
+          android:versionCode="1"
+          android:versionName="1.0">
+   
+    <uses-permission android:name="net.zhuoweizhang.mcpelauncher.ADDON"/>
+    <uses-sdk android:minSdkVersion="14" />
+
+    <application android:label="Minecraft Xbox Live UI"
+                 android:hasCode="false">
+
+        <!-- Must match Android.mk - Specifies JNI libs infos for BL -->
+        <meta-data android:name="net.zhuoweizhang.mcpelauncher.api.nativelibname"
+                   android:value="io.github.lukeeey.xblui" />
+
+        <!-- BL Compatibility with MCPE versions -->
+        <meta-data android:name="net.zhuoweizhang.mcpelauncher.api.targetmcpeversion"
+                   android:value="1.4.2.0" />
+    </application>
+
+</manifest> 
