@@ -16,7 +16,7 @@
 
         <!-- BL Compatibility with MCPE versions -->
         <meta-data android:name="net.zhuoweizhang.mcpelauncher.api.targetmcpeversion"
-                   android:value="1.4.2.0" />
+                   android:value="1.5.2.1" />
     </application>
 
 </manifest> 
